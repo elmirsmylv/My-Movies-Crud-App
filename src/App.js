@@ -23,7 +23,8 @@ class App extends React.Component {
 
   //AXIOS ILE GET REQUEST
   componentDidMount() {
-    this.getMovies();  
+    this.getMovies(); 
+    console.log();
   }
 
   async getMovies(){
